@@ -1,4 +1,7 @@
-j=10
-while j>=1:
-    print(j)
-    j-=1
+def ppp():
+    print("hola")
+    return 1
+
+#print(ppp())
+x=ppp()
+print(x)

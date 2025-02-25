@@ -24,3 +24,12 @@ match est:
     case _:
         print("opcion no existe")
     
+
+def ppp():
+    print("hola")
+    #return 1
+
+print(ppp())
+# x=ppp()
+# print(x)
+
