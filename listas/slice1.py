@@ -35,15 +35,9 @@ def llenarListaRandom(lista):
         lista.append(num)
     return lista
 
-
-def sumar(x,y):
-    return x+y
-
-def restar(x,y):
-    return x-y
-
-def multiplicar(x,y):
-    return x*y
-
-def dividir(x,y):
-    return x/y
+vector=[]
+vector=llenarListaRandom(vector)
+print(vector)
+# reb1=rebanadas(vector,-4,-2)
+# print(reb1)
+mitades(vector)
