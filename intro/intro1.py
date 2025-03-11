@@ -13,3 +13,4 @@ x*=4 #x=x*4
 print(x)
 x=x/2
 print(x)
+print(f"varible name={__name__}")

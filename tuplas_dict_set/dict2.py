@@ -1,11 +1,17 @@
+def saludar():
+    return 'Hola'
+
 datos={
     "gender": "female",
     "date_of_birth": "05.08.02",
     "enrollment_semester": "Summer 2022",
     "semester_number": 6,
     "major": "Data Analytics",
-    "number": 22100
+    "number": 22100,
+    "saludo":saludar()
  }
+
+print(datos['saludo'])
 
 def nuevaClave(dict,clave,valor):
     flag=False
