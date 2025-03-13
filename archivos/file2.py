@@ -59,6 +59,6 @@ print(s.split())
 palabra="gloria"
 
 st=st.split()
-repeticiones = [palabra for x in palabras if x == palabra.lower()]
+#repeticiones = [palabra for x in palabras if x == palabra.lower()]
 
-print(repeticiones)
+#print(repeticiones)

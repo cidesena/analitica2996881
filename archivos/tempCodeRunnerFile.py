@@ -1,1 +1,2 @@
-print(data)
+for emp in emplist:
+    #     print(emp)
